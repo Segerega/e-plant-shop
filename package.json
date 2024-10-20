@@ -6,8 +6,8 @@
   "homepage": "https://segerega.github.io/e-plant-shop/",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run duild",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "npm run build && gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
